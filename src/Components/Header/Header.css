@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #141414;
+  color: #fff;
+}
+
+/* Header styles */
+.netflix-header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 8px;
+  background-color: rgba(20, 20, 20, 0.9);
+  z-index: 999;
+}
+
+/* Logo */
+.logo-container .logo {
+  height: 40px;
+}
+
+/* Navigation links */
+.nav-items {
+  
+  display: flex;
+  width: 60%;
+  gap: 50px;
+
+  
+}
+
+/* mobile first approach */
+
+/* @media (max-width: 600px) {
+  .nav-items {
+    width: 40%;
+   gap: 8px;
+   padding: 15px;
+   display: grid;
+   justify-items: center;
+  display: none;
+     }
+
+     .netflix-header div img {
+      width: 30px;
+      height: 30px;
+     }
+} */
+
+@media (max-width: 768px) { 
+  .nav-items {
+    display: none;
+     }
+}
+.nav-items a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  transition: color 0.2s;
+}
+
+.nav-items a:hover {
+  color: #e50914; /* Netflix red on hover */
+}
+
+/* Icons section */
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Individual icon styles */
+.icon {
+  cursor: pointer;
+  font-size: 1.2em;
+  display: flex;
+  align-items: center;
+}
+
+/* Profile image styling */
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  position: relative;
+}
+
+.profile-img {
+  height: 30px;
+  width: 30px;
+  border-radius: 4px;
+}
+
+.dropdown-icon {
+  font-size: 0.8em;
+  color: #fff;
+}
