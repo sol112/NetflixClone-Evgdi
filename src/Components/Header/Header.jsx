@@ -18,7 +18,7 @@ function Header() {
         <a href="#">Home</a>
         <a href="#">Series</a>
         <a href="#">Films</a>
-        <a href="#">New and Popular</a>
+        <a href="#">New & Popular</a>
         <a href="#">My List</a>
       </nav>
 
