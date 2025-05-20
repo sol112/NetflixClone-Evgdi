@@ -14,6 +14,7 @@ function App() {
     <Header />
     <Banner />
 	<br />
+  <br />
 		<Row
 			title="NETFLIX ORIGNALS"
 			isLargeRow
